@@ -35,7 +35,7 @@ def dgray
 end
 
 def sblue
-  { gui: '#778899', cterm: 67 }
+  { gui: 'CadetBlue', cterm: 73 }
 end
 
 def yellow
@@ -107,9 +107,15 @@ hi :LineNr, fg: dgray, bg: transparent
 # Main groups for programming langages.
 hi :Statement, fg: white, bold: true, bg: transparent
 hi :PreProc, fg: white, bold: true, bg: transparent
-hi :String, fg: sblue, bg: transparent
+hi :String, fg: sblue
+hi :Number, fg: sblue
+hi :Boolean, fg: sblue
+hi :Float, fg: sblue
+hi :Directory, fg: sblue
+hi :Title, fg: sblue
+
 hi :Comment, fg: cgray, bg: transparent
-hi :Constant, bg: transparent
+hi :Constant, fg: sblue
 hi :Type, fg: white, bold: true, bg: transparent
 hi :Function, fg: white, bg: transparent
 hi :Identifier, bg: transparent
@@ -180,7 +186,6 @@ hi :ALEErrorSign, fg: sblue, bg: transparent
 hi :ALEWarningSign, fg: sblue, bg: transparent
 
 # GitGutter
-hi :Comment, fg: cgray, bg: transparent
 hi :GitGutterAdd, fg: cgray, bg: transparent           # an added line
 hi :GitGutterChange, fg: cgray, bg: transparent       # a changed line
 hi :GitGutterDelete, fg: cgray, bg: transparent       # at least one removed line
@@ -191,6 +196,12 @@ hi :ErrorMsg, underline: true, fg: white, bg: transparent
 hi :MoreMsg, underline: true, fg: sblue, bg: transparent
 hi :Question, bold: true, fg: white, bg: transparent
 hi :WarningMsg, fg: sblue, bg: transparent
+
+# XML and JSX
+hi :xmlTag, fg: cgray
+hi :xmlTagName, fg: sblue
+hi :xmlEndTag, fg: cgray
+hi :xmlAttrib, fg: white
 
 # Vim script.
 hi :vimOption, bg: transparent
