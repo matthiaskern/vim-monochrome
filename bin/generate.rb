@@ -118,8 +118,8 @@ hi :Comment, fg: cgray, bg: transparent
 hi :Constant, fg: sblue
 hi :Type, fg: white, bold: true, bg: transparent
 hi :Function, fg: white, bg: transparent
-hi :Identifier, bg: transparent
-hi :Special, bg: transparent
+hi :Identifier, fg: white, bold: true, bg: transparent
+hi :Special, fg: white, bold: true, bg: transparent
 hi :MatchParen, fg: black, bg: lgray
 
 # Ruby tweaks.
@@ -149,6 +149,7 @@ hi :elixirDelimiter, fg: sblue
 # Search.
 hi :Search, fg: cgray, underline: true, bg: transparent
 hi :Visual, fg: white, bg: cgray
+hi :Underlined, fg: white, bold: true, underline: true
 
 # Tildes at the bottom of a buffer, etc.
 hi :NonText, fg: cgray
@@ -202,6 +203,12 @@ hi :xmlTag, fg: cgray
 hi :xmlTagName, fg: sblue
 hi :xmlEndTag, fg: cgray
 hi :xmlAttrib, fg: white
+
+# TSX tweaks
+hi :tsxTag, fg: cgray
+hi :tsxTagName, fg: sblue
+hi :tsxEndTag, fg: cgray
+hi :tsxAttrib, fg: white
 
 # Vim script.
 hi :vimOption, bg: transparent

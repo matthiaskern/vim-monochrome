@@ -37,8 +37,8 @@ hi Comment guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE
 hi Constant guifg=CadetBlue ctermfg=73 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi Type guifg=White ctermfg=15 guibg=none ctermbg=none gui=bold cterm=bold term=bold
 hi Function guifg=White ctermfg=15 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
-hi Identifier guifg=LightGray ctermfg=252 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
-hi Special guifg=LightGray ctermfg=252 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
+hi Identifier guifg=White ctermfg=15 guibg=none ctermbg=none gui=bold cterm=bold term=bold
+hi Special guifg=White ctermfg=15 guibg=none ctermbg=none gui=bold cterm=bold term=bold
 hi MatchParen guifg=Black ctermfg=16 guibg=LightGray ctermbg=252 gui=NONE cterm=NONE term=NONE
 hi rubyConstant guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi rubySharpBang guifg=LightGray ctermfg=252 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
@@ -56,6 +56,7 @@ hi javaScriptFunction guifg=White ctermfg=15 guibg=Black ctermbg=16 gui=bold cte
 hi elixirDelimiter guifg=CadetBlue ctermfg=73 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi Search guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=underline cterm=underline term=underline
 hi Visual guifg=White ctermfg=15 guibg=#737373 ctermbg=243 gui=NONE cterm=NONE term=NONE
+hi Underlined guifg=White ctermfg=15 guibg=Black ctermbg=16 gui=bold,underline cterm=bold,underline term=bold,underline
 hi NonText guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi SpecialKey guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi Directory guifg=White ctermfg=15 guibg=none ctermbg=none gui=bold cterm=bold term=bold
@@ -86,6 +87,10 @@ hi xmlTag guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE t
 hi xmlTagName guifg=CadetBlue ctermfg=73 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi xmlEndTag guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi xmlAttrib guifg=White ctermfg=15 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi tsxTag guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi tsxTagName guifg=CadetBlue ctermfg=73 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi tsxEndTag guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi tsxAttrib guifg=White ctermfg=15 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi vimOption guifg=LightGray ctermfg=252 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi vimGroup guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi vimHiClear guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
