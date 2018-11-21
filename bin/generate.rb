@@ -207,7 +207,8 @@ hi :xmlAttrib, fg: white
 # TSX tweaks
 hi :tsxTag, fg: cgray
 hi :tsxTagName, fg: sblue
-hi :tsxEndTag, fg: cgray
+hi :tsxIntrinsicTagName, fg: sblue
+hi :tsxCloseTag, fg: cgray
 hi :tsxAttrib, fg: white
 
 # Vim script.

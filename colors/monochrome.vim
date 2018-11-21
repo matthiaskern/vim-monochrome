@@ -89,7 +89,8 @@ hi xmlEndTag guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NON
 hi xmlAttrib guifg=White ctermfg=15 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi tsxTag guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi tsxTagName guifg=CadetBlue ctermfg=73 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
-hi tsxEndTag guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi tsxIntrinsicTagName guifg=CadetBlue ctermfg=73 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi tsxCloseTag guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi tsxAttrib guifg=White ctermfg=15 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi vimOption guifg=LightGray ctermfg=252 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi vimGroup guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
