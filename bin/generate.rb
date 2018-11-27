@@ -91,7 +91,7 @@ hi :Normal, bg: transparent
 hi :Cursor, fg: black, bg: transparent 
 
 # Cursor line.
-hi :CursorLine, bg: bgray
+hi :CursorLine, fg: transparent, bg: transparent
 hi :CursorLineNr, fg: white, bold: true
 
 # Color column.
@@ -185,6 +185,11 @@ hi :helpNote # linked to Todo
 # Ale Syntax Checking
 hi :ALEErrorSign, fg: sblue, bg: transparent
 hi :ALEWarningSign, fg: sblue, bg: transparent
+hi :ALEError, underline: true
+hi :ALEStyleError, underline: true
+hi :ALEWarning, underline: true
+hi :ALEStyleWarning, underline: true
+hi :ALEInfo, underline: true
 
 # GitGutter
 hi :GitGutterAdd, fg: cgray, bg: transparent           # an added line

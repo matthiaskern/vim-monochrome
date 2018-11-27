@@ -19,7 +19,7 @@ let g:colors_name = 'monochrome'
 hi NonText guifg=LightGray ctermfg=252 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi Normal guifg=LightGray ctermfg=252 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi Cursor guifg=Black ctermfg=16 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
-hi CursorLine guifg=LightGray ctermfg=252 guibg=#202020 ctermbg=234 gui=NONE cterm=NONE term=NONE
+hi CursorLine guifg=none ctermfg=none guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi CursorLineNr guifg=White ctermfg=15 guibg=Black ctermbg=16 gui=bold cterm=bold term=bold
 hi ColorColumn guifg=LightGray ctermfg=252 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi FoldColumn guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
@@ -75,6 +75,11 @@ hi helpHyperTextJump guifg=CadetBlue ctermfg=73 guibg=Black ctermbg=16 gui=under
 hi helpNote guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi ALEErrorSign guifg=CadetBlue ctermfg=73 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi ALEWarningSign guifg=CadetBlue ctermfg=73 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
+hi ALEError guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=underline cterm=underline term=underline
+hi ALEStyleError guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=underline cterm=underline term=underline
+hi ALEWarning guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=underline cterm=underline term=underline
+hi ALEStyleWarning guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=underline cterm=underline term=underline
+hi ALEInfo guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=underline cterm=underline term=underline
 hi GitGutterAdd guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi GitGutterChange guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi GitGutterDelete guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
