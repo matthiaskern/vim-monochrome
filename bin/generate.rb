@@ -147,7 +147,7 @@ hi :javaScriptFunction, fg: white, bold: true
 hi :elixirDelimiter, fg: sblue
 
 # Search.
-hi :Search, fg: cgray, underline: true, bg: transparent
+hi :Search, fg: transparent, bg: transparent, underline: true
 hi :Visual, fg: white, bg: cgray
 hi :Underlined, fg: white, bold: true, underline: true
 
@@ -197,6 +197,12 @@ hi :GitGutterChange, fg: cgray, bg: transparent       # a changed line
 hi :GitGutterDelete, fg: cgray, bg: transparent       # at least one removed line
 hi :GitGutterChangeDelete, fg: cgray, bg: transparent # a changed line followed by at least one removed line
 
+# diff
+hi :DiffAdd, fg: transparent
+hi :DiffDelete, fg: transparent
+hi :DiffChange, fg: transparent
+hi :DiffText, fg: transparent
+
 # Vim messages
 hi :ErrorMsg, underline: true, fg: white, bg: transparent
 hi :MoreMsg, underline: true, fg: sblue, bg: transparent
@@ -214,6 +220,7 @@ hi :tsxTag, fg: cgray
 hi :tsxTagName, fg: sblue
 hi :tsxIntrinsicTagName, fg: sblue
 hi :tsxCloseTag, fg: cgray
+hi :tsxCloseString, fg: cgray
 hi :tsxAttrib, fg: white
 
 # Vim script.

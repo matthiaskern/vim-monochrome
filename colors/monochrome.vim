@@ -54,7 +54,7 @@ hi perlMatchStartEnd guifg=CadetBlue ctermfg=73 guibg=Black ctermbg=16 gui=NONE 
 hi pythonEscape guifg=CadetBlue ctermfg=73 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi javaScriptFunction guifg=White ctermfg=15 guibg=Black ctermbg=16 gui=bold cterm=bold term=bold
 hi elixirDelimiter guifg=CadetBlue ctermfg=73 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
-hi Search guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=underline cterm=underline term=underline
+hi Search guifg=none ctermfg=none guibg=none ctermbg=none gui=underline cterm=underline term=underline
 hi Visual guifg=White ctermfg=15 guibg=#737373 ctermbg=243 gui=NONE cterm=NONE term=NONE
 hi Underlined guifg=White ctermfg=15 guibg=Black ctermbg=16 gui=bold,underline cterm=bold,underline term=bold,underline
 hi NonText guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
@@ -84,6 +84,10 @@ hi GitGutterAdd guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm
 hi GitGutterChange guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi GitGutterDelete guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi GitGutterChangeDelete guifg=#737373 ctermfg=243 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
+hi DiffAdd guifg=none ctermfg=none guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi DiffDelete guifg=none ctermfg=none guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi DiffChange guifg=none ctermfg=none guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi DiffText guifg=none ctermfg=none guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi ErrorMsg guifg=White ctermfg=15 guibg=none ctermbg=none gui=underline cterm=underline term=underline
 hi MoreMsg guifg=CadetBlue ctermfg=73 guibg=none ctermbg=none gui=underline cterm=underline term=underline
 hi Question guifg=White ctermfg=15 guibg=none ctermbg=none gui=bold cterm=bold term=bold
@@ -96,6 +100,7 @@ hi tsxTag guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE t
 hi tsxTagName guifg=CadetBlue ctermfg=73 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi tsxIntrinsicTagName guifg=CadetBlue ctermfg=73 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi tsxCloseTag guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi tsxCloseString guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi tsxAttrib guifg=White ctermfg=15 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi vimOption guifg=LightGray ctermfg=252 guibg=none ctermbg=none gui=NONE cterm=NONE term=NONE
 hi vimGroup guifg=LightGray ctermfg=252 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
